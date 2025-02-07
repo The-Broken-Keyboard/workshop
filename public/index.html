@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Node.js Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <span class="menu-toggle" onclick="toggleSidebar()">&#9776;</span>
+            <img class="isea_logo" src="isea.jpg" alt="ISEA_Logo">
+            <img src="Ministry_of_Electronics_and_Information_Technology.svg" alt="MEIT_Logo">
+            <nav>
+                <ul>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#dates">Dates</a></li>
+                    <li><a href="#objective">Objective</a></li>
+                    <li><a href="#coordinators">Coordinators</a></li>
+                    <li><a href="#themes">Themes</a></li>
+                    <li><a href="#links">Registration</a></li>
+                    <li><a href="#links">Links</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="sidebar" id="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#speakers" onclick="toggleSidebar()">Speakers</a></li>
+                <li><a href="#dates" onclick="toggleSidebar()">Dates</a></li>
+                <li><a href="#objective" onclick="toggleSidebar()">Objective</a></li>
+                <li><a href="#coordinators" onclick="toggleSidebar()">Coordinators</a></li>
+                <li><a href="#themes" onclick="toggleSidebar()">Themes</a></li>
+                <li><a href="#links" onclick="toggleSidebar()">Registration</a></li>
+                <li><a href="#links" onclick="toggleSidebar()">Links</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <!-- Left Side -->
+        <div class="left">
+            <div class="content">
+                <h2>Organised By:</h2>
+                <br>
+                <div class="logos">
+                    <img src="iiit-logo-white.png" alt="Logo 2">
+                    <!-- <img src="logo3.png" alt="Logo 3"> -->
+                </div>
+                <h1 class="title">5 - Day National Workshop and Bootcamp on Cyber Security and Blockchain</h1>
+                <br>
+                <h2>(NWBCSB 2025)</h2>
+                <br <h3>(Hybrid Mode)</h3>
+                <br>
+                <br>
+                <h2>1-5 March, 2025</h2>
+                <br>
+            </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="right">
+            <div class="para-div">
+                <h2>About the institute</h2>
+                <p>International Institute of Information Technology, Hyderabad (IIITH) is an autonomous university,
+                    founded
+                    as not-for-profit public private a partnership (N-PPP) in 1998, and is the first IIIT in India under
+                    this model. Over the years, the institute has evolved strong research programmes in various areas,
+                    with
+                    an emphasis on technology and applied research for industry and society. The institute facilitates
+                    interdisciplinary research and a seamless flow of knowledge. Several world-renowned centres of
+                    excellence are part of IIITH's research portfolio. It has established various joint collaboration
+                    and
+                    co-innovation models with an industry outreach spanning significant national and multinational
+                    companies.</p>
+            </div>
+            <div class="para-div">
+                <h2>About the event</h2>
+                <p>Cybersecurity is one of the most critical and challenging domains of the current era. The continuous
+                    rise
+                    in attacks across various industries has led to significant financial losses and heightened concerns
+                    globally. Cybercriminals are employing increasingly sophisticated techniques to exploit
+                    vulnerabilities,
+                    making this an ever-escalating threat. Addressing this pressing issue requires in-depth discussion
+                    and
+                    evaluation by experts.
+                    This event aims to provide valuable insights into the evolving landscape of cybersecurity, including
+                    the
+                    technical challenges and strategies employed to mitigate threats. Participants will gain a deeper
+                    understanding of how cybersecurity is managed in real-world scenarios, through hands-on experience
+                    of
+                    cyber security and blockchain technology. By exploring the nature of cybercrimes and prevention
+                    techniques, the event seeks to empower attendees with knowledge to combat these threats effectively
+                    by
+                    providing them hands-on experience.</p>
+            </div>
+        </div>
+    </div>
+    <div id="info-box-container" class="info-box-container">
+        <div id="info-box-sub-container" class="info-box-sub-container">
+            <div id="objective" class="info-box">
+                <h2 class="info-title">Objective of the Event</h2>
+                <p>This event aims to discuss and raise awareness in the following areas:</p>
+                <ul>
+                    <li>Understand the evolving Cybersecurity Landscape</li>
+                    <li>Discuss real-world Cybersecurity strategies</li>
+                    <li>Role of Blockchain in Cybersecurity</li>
+                    <li>Decentralization and Security</li>
+                    <li>To gain hands-on experience of Cybersecurity and Blockchain techniques</li>
+                </ul>
+            </div>
+            <div id="coordinators" class="info-box">
+                <h2 class="info-title">Coordinators</h2>
+                <ul>
+                    <li>Prof. Ankit Gangwal, CSTAR, IIIT-H</li>
+                    <li> Prof. Ashok Kumar Das, CSTAR, IIIT-H</li>
+                    <li>Prof. Kannan Srinathan, CSTAR, IIIT-H</li>
+                    <li>Prof. Kishore Kothapalli, CSTAR, IIIT-H</li>
+                    <li>Prof. Sujit Gujar, MLL, IIIT-H</li>
+                </ul>
+            </div>
+        </div>
+        <div id="themes" class="info-box">
+            <h2 class="info-title">Themes and Sub-themes</h2>
+            <p>This event aims to discuss and raise awareness in the following areas:</p>
+            <ul>
+                <li>Basics of cryptography in cyber security</li>
+                <li>Fortifying Digital Frontiers: Advances in System and Network Security</li>
+                <li>Securing the Future: The Rise of Post-Quantum Cryptography</li>
+                <li>The Digital Battlefield: Combating Cybercrime in the 21st Century</li>
+                <li>Blockchain Innovations: Revolutionizing Industries and Enhancing Securities</li>
+                <li>Decentralized Trust: Exploring the Mechanics of Distributed Blockchain Systems</li>
+                <li>Securing Digital Finances: Emerging Trends in Fintech Cybersecurity</li>
+                <li>Unified Blockchain Framework (UBF) and it's applications</li>
+                <li>The Role of Information Audit and Assurance</li>
+                <li>Federated Learning, Differential Privacy and Blockchains</li>
+            </ul>
+        </div>
+
+        <div id="organizing committee" class="info-box">
+            <h2 class="info-title"> Organizing Committee</h2>
+            <ul>
+                <li>Abhishek Kr. Pandey, CSTAR,IIIT-H</li>
+                <li>Debjani Mallick, CSTAR, IIIT-H</li>
+                <li>Debnath Ghosh, CSTAR, IIIT-H</li>
+                <li>Karthik Raj P, CSTAR, IIIT-H</li>
+                <li>Krishna Sireesha S, IIIT-H</li>
+                <li>Mahender Kumar B, IIIT-H</li>
+                <li>Mohammad Rasheed Ahmed, MLL, IIIT-H</li>
+                <li>Parth Nimish Desai, MLL, IIIT-H</li>
+                <li>Prithwi Bagchi, CSTAR, IIIT-H</li>
+                <li>Pronoy Patra, MLL, IIIT-H</li>
+                <li>Ms. Vidya S, CSTAR, IIIT-H</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="info-box-container_last" class="info-box-container_last">
+        <div id="speakers" class="info-box_last">
+            <h2 class="info-title_last">Eminent Speakers</h2>
+            <p>All the eminent speakers are from IIT, IIIT, IBM and other prestigious institutions.</p>
+            <ul>
+                <li>Prof. Ankit Gangwal, IIIT, Hyderabad</li>
+                <li>Prof. Ashok Kumar Das, IIIT, Hyderabad</li>
+                <li>Mr. Bhushan Gulabrao Borase, IPS, Hyderabad</li>
+                <li>Prof. Kannan Srinathan, IIIT, Hyderabad</li>
+                <li>Mr. Krishna Suri, IBM, Bangalore</li>
+                <li>Dr. Manisha Padala, IIT Gandhinagar</li>
+                <li>Mrs. P R Lakshmi Eswari, Director, C-DAC, Hyderabad</li>
+                <li>Prof. Sathya Peri, IIT, Hyderabad</li>
+            </ul>
+            <p>(+) many more speakers from reputed institutes of INDIA</p>
+        </div>
+        <div id="registration" class="info-box_last">
+            <h2 class="info-title_last">Registration</h2>
+            <ul>
+                <li>No Registration and Participation fee for the event.</li>
+                <li>The event is open to all Undergraduate, Masters, Research Scholars, and Faculty members across
+                    INDIA.</li>
+            </ul>
+        </div>
+
+        <div id="accommodation" class="info-box_last">
+            <h2 class="info-title_last">Accommodation</h2>
+            <ul>
+                <li>Participants will be provided accommodation on a per-day charge within IIIT Hyderabad campus.
+                </li>
+                <li>Accommodation will be allocated strictly on a first-come, first-served basis.</li>
+                <li>Institute does not guarantee accommodation for all the participants, it will only be provided
+                    subject to availability.</li>
+            </ul>
+        </div>
+
+        <div id="dates" class="info-box_last">
+            <h2 class="info-title_last"> IMPORTANT DATES</h2>
+            <ul>
+                <li>Registration Closes on 15 February, 5:00 PM (IST)</li>
+                <li>Announcement of Selected Candidates 15 February, 7:00 PM (IST)</li>
+                <li>Event Dates 01-05 March 2025</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="links" class="container" style="margin-top:5vh; margin-bottom: 2vh;">
+        <!-- Left Side -->
+        <div class="left" style="background: url('lock2.jpg') no-repeat center center/cover;">
+        </div>
+        <!-- Right Side -->
+        <div class="right">
+            <div class="para-div" style="height: 100%;">
+                <h2>Contact the Event Organizers: <a href="nwbcsb2025@iiit.ac.in">Click here</a></h2>
+                <h2>Registration Link: 
+                    <a href="https://tinyurl.com/nwbcsb2025">Click here</a>
+                </h2>
+            </div>
+
+        </div>
+    </div>
+    <!-- <footer>
+        <p>© 2024 IIIT Event | Designed by Shrey</p>
+    </footer> -->
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            if (sidebar.style.left === "0px") {
+                sidebar.style.left = "-250px";
+            } else {
+                sidebar.style.left = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
